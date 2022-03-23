@@ -1,0 +1,72 @@
+body{
+    background: rgb(26, 30, 34);
+}
+@keyframes machao{
+    from{ color: rgb(26, 30, 34)}
+    to{ color: rgb(28, 8, 207)}
+}
+.enter{
+    color: white;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    animation-name:machao;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+    text-align: center;
+}
+.forme{
+    display: block;
+    background: rgb(133, 187, 241);
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+   
+}
+.name{
+display: block;
+align-items: center;
+margin-left: auto;
+margin-right: auto;
+font-size: 30px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style: italic;
+border: 1px solid;
+border-radius: 10px;
+}
+.age
+{
+display: block;
+align-items: center;
+margin-left: auto;
+margin-right: auto;
+font-size: 30px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style: italic;
+border: 1px solid;
+border-radius: 10px;
+}
+
+.pass{
+display: block;
+align-items: center;
+margin-left: auto;
+margin-right: auto;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style: italic;
+font-size: 30px;
+border: 1px solid;
+border-radius: 10px;
+}
+.button{
+display: block;
+margin-left: auto;
+margin-right: auto;
+font-size: 30px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style: italic;
+border-radius: 10px;
+}
